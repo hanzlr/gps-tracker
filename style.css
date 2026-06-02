@@ -1,0 +1,233 @@
+/* style.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Inter',sans-serif;
+}
+
+body{
+  display:flex;
+  height:100vh;
+  overflow:hidden;
+  background:#f1f5f9;
+}
+
+/* =========================
+SIDEBAR
+========================= */
+
+.sidebar{
+  width:290px;
+
+  background:white;
+
+  border-right:1px solid #e2e8f0;
+
+  padding:18px;
+
+  display:flex;
+  flex-direction:column;
+
+  z-index:999;
+}
+
+/* =========================
+TITLE
+========================= */
+
+.title{
+  font-size:28px;
+  font-weight:800;
+
+  color:#0f172a;
+}
+
+.subtitle{
+  font-size:12px;
+
+  color:#64748b;
+
+  margin-top:2px;
+}
+
+/* =========================
+BUTTON
+========================= */
+
+.custom-btn{
+  height:90px;
+
+  border:none !important;
+
+  border-radius:14px !important;
+
+  display:flex !important;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:8px;
+
+  font-size:13px !important;
+
+  font-weight:700 !important;
+
+  transition:0.2s;
+}
+
+.custom-btn i{
+  font-size:18px;
+}
+
+.custom-btn:hover{
+  transform:translateY(-2px);
+}
+
+/* =========================
+STATUS
+========================= */
+
+.status-card{
+  border:none !important;
+
+  border-radius:16px !important;
+
+  padding:16px;
+
+  background:#f8fafc !important;
+}
+
+.status-title{
+  font-size:13px;
+
+  font-weight:700;
+
+  color:#64748b;
+
+  margin-bottom:12px;
+}
+
+.status-item{
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  padding:11px 0;
+
+  border-bottom:1px solid #e2e8f0;
+
+  font-size:13px;
+
+  color:#475569;
+}
+
+.status-item:last-child{
+  border-bottom:none;
+}
+
+.status-item span:last-child{
+  font-weight:700;
+
+  color:#0f172a;
+}
+
+/* =========================
+GOOGLE MAPS
+========================= */
+
+#mapsLink{
+  margin-top:14px;
+
+  background:#0f172a;
+
+  color:white;
+
+  text-decoration:none;
+
+  border-radius:14px;
+
+  padding:14px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:10px;
+
+  font-size:13px;
+
+  font-weight:700;
+
+  transition:0.2s;
+}
+
+#mapsLink:hover{
+  opacity:0.92;
+}
+
+/* =========================
+MAP
+========================= */
+
+#map{
+  flex:1;
+  height:100vh;
+}
+
+/* =========================
+MAP BUTTON
+========================= */
+
+.map-btn{
+  position:absolute;
+
+  top:16px;
+  right:16px;
+
+  z-index:999;
+
+  border:none;
+
+  border-radius:12px;
+
+  padding:12px 16px;
+
+  background:white;
+
+  border:1px solid #e2e8f0;
+
+  font-size:13px;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  display:flex;
+
+  align-items:center;
+
+  gap:8px;
+
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* =========================
+FULLSCREEN
+========================= */
+
+body.fullscreen .sidebar{
+  display:none;
+}
+
+body.fullscreen #map{
+  width:100%;
+}
