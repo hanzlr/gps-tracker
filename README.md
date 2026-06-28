@@ -103,6 +103,6 @@ No APK needed. Install directly from your browser:
 
 ## License
 
-© 2024 Muhamad Nara Utama. All rights reserved.
+© 2026 Muhamad Nara Utama. All rights reserved.
 This project is created for academic purposes.
 Unauthorized use, copying, or distribution is not permitted.
