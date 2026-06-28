@@ -97,8 +97,7 @@ No APK needed. Install directly from your browser:
 
 ## Author
 
-**Muhamad Nara Utama**
-NIM: 41422110037
+**Muhamad Nara Utama** (41422110037)
 
 ---
 
